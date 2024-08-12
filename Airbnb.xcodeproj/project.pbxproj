@@ -12,6 +12,7 @@
 		C181A8DA2C6A070600413D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C181A8D92C6A070600413D33 /* Assets.xcassets */; };
 		C181A8DE2C6A070600413D33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C181A8DD2C6A070600413D33 /* Preview Assets.xcassets */; };
 		C181A8F12C6A0ACE00413D33 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C181A8F02C6A0ACE00413D33 /* ExploreView.swift */; };
+		C181A8F32C6A196E00413D33 /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C181A8F22C6A196E00413D33 /* ListingItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C181A8DB2C6A070600413D33 /* Airbnb.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Airbnb.entitlements; sourceTree = "<group>"; };
 		C181A8DD2C6A070600413D33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C181A8F02C6A0ACE00413D33 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		C181A8F22C6A196E00413D33 /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		C181A8EA2C6A08A600413D33 /* Listnings */ = {
 			isa = PBXGroup;
 			children = (
+				C181A8F22C6A196E00413D33 /* ListingItemView.swift */,
 			);
 			path = Listnings;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C181A8D82C6A070500413D33 /* ContentView.swift in Sources */,
+				C181A8F32C6A196E00413D33 /* ListingItemView.swift in Sources */,
 				C181A8F12C6A0ACE00413D33 /* ExploreView.swift in Sources */,
 				C181A8D62C6A070500413D33 /* AirbnbApp.swift in Sources */,
 			);
