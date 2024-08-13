@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ExploreView()
+        MainTabVeiw()
 //        VStack {
 //            Image(systemName: "globe")
 //                .imageScale(.large)
